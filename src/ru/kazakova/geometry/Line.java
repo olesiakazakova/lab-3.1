@@ -1,27 +1,22 @@
+package ru.kazakova.geometry;
+
 public class Line {
     // поля
     private Point start;
     private Point end;
 
     // свойства
-    Point getStart()
+    public Point getStart()
     {
         return this.start;
     };
 
-    Point getEnd()
+    public Point getEnd()
     {
         return this.end;
     };
 
     // конструкторы
-    //конструктор, созданный при решении задания 2
-    //не работает, тк объект Point можно создать только путем указания обеих координат
-//    public Line() {
-//        this.start = new Point();
-//        this.end = new Point();;
-//    }
-
     public Line(Point start, Point end) {
         this.start = start;
         this.end = end;
