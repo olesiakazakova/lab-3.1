@@ -33,7 +33,7 @@ public class Point implements Cloneable {
         if (this == o) return true;
         // Проверяем, является ли объект экземпляром Point
         if (o == null || getClass() != o.getClass()) return false;
-        // Приводим объект к типу ru.kazakova.geometry.Point
+        // Приводим объект к типу Point
         Point a = (Point) o;
         // Сравниваем координаты
         return Double.compare(this.x, a.x) == 0 && Double.compare(this.y, a.y) == 0; //Double.compare() сравнивает два заданных значения типа double.
