@@ -18,7 +18,7 @@ public class PhoneDirectory {
     }
 
     // методы
-    // для добавления новой пары телефон-имя //сделать проверку!!!!!
+    // для добавления новой пары телефон-имя 
     public String add(String phone, String name) {
         if (directory.containsKey(name)) {
             String old = directory.get(name);
