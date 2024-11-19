@@ -37,9 +37,6 @@ public class Point implements Cloneable {
         Point a = (Point) o;
         // Сравниваем координаты
         return Double.compare(this.x, a.x) == 0 && Double.compare(this.y, a.y) == 0; //Double.compare() сравнивает два заданных значения типа double.
-        //0, если значения равны;
-        //1, если первое значение больше второго;
-        //−1, если первое значение меньше второго.
     }
 
     @Override
