@@ -31,7 +31,7 @@ public class Point implements Cloneable {
     public boolean equals(Object o) {
         // Проверяем, ссылается ли объект на сам себя
         if (this == o) return true;
-        // Проверяем, является ли объект экземпляром ru.kazakova.geometry.Point
+        // Проверяем, является ли объект экземпляром Point
         if (o == null || getClass() != o.getClass()) return false;
         // Приводим объект к типу ru.kazakova.geometry.Point
         Point a = (Point) o;
