@@ -20,19 +20,6 @@ public class Student {
     }
 
     // конструкторы
-//    public Student(String name, int... grades) {
-//        this.name = name;
-//        if (grades.length > 0)  {//обновление
-//            for (int grade : grades) {
-//                if ((grade < 2) || (grade > 5)) {
-//                    throw new IllegalArgumentException("Оценка должна быть в диапазоне от 2 до 5");
-//                }
-//            }
-//            this.grades = grades.clone();
-//        } else {
-//            this.grades = new int[0];
-//        }
-//    }
     public Student(String name) {
         this.name = name;
         this.grades = new ArrayList<>();
